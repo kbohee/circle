@@ -8,11 +8,11 @@ public class Circle implements GeometricObject {
 	}
 	
 	public double getPerimeter() {
-		return radius*2*Math.PI;
+		return (radius*2*Math.PI);
 	}
 	
 	public double getArea() {
-		return radius*radius*Math.PI;
+		return (radius*radius*Math.PI);
 	}
 
 	@Override
